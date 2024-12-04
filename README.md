@@ -32,6 +32,9 @@ The **Tic-Tac-Toe** game is a classic 2-player game developed using **JavaFX**. 
 6. **Responsive Layout**:
    - The game layout adjusts to the screen size, with all UI components organized in an easy-to-use format.
 
+7. **Added Test Cases**
+   - I have also created 2 basic test cases to make TDD.
+
 ## Technologies Used
 
 - **JavaFX**: For building the graphical user interface (GUI) and handling events.
