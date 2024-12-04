@@ -1,0 +1,47 @@
+.root{
+    -fx-background-color: lightgray;
+}
+
+/* Default button style */
+.game-button {
+    -fx-background-color: transparent;
+    -fx-border-color: gray;
+    -fx-border-width: 2px;
+}
+
+/* Winning button style */
+.game-button-winning {
+    -fx-background-color: gold;
+    -fx-border-color: red;
+    -fx-border-width: 3px;
+}
+
+.default-theme, .dark-theme, .light-theme, .blue-theme {
+    -fx-opacity: 1; /* Ensure full opacity */
+}
+
+.game-button-active {
+    -fx-background-color: blue;
+}
+
+.default-theme {
+    -fx-background-color: blueviolet;
+    -fx-text-fill: white; /* Ensure the text is visible on dark backgrounds */
+}
+
+.dark-theme {
+    -fx-background-color: #333;
+    -fx-text-fill: white; /* Ensure the text is visible on dark backgrounds */
+}
+
+.light-theme {
+    -fx-background-color: #f4f4f4;
+    -fx-text-fill: black; /* Ensure the text is visible on light backgrounds */
+}
+
+.blue-theme {
+    -fx-background-color: rgba(0, 166, 255, 0.63);
+    -fx-text-fill: red; /* Ensure the text is visible on light blue background */
+}
+
+
