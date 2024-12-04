@@ -56,6 +56,7 @@ The **Tic-Tac-Toe** game is a classic 2-player game developed using **JavaFX**. 
 8. **Regular Expressions**
 9. **Audio Handling**
 10. **Validation**
+11. **Exception Handeling**
 
 ## Installation and Setup
 
