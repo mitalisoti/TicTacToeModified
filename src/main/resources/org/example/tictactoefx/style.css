@@ -1,4 +1,4 @@
-.root{
+.borderPane{
     -fx-background-color: lightgray;
 }
 
@@ -11,26 +11,26 @@
 
 /* Winning button style */
 .game-button-winning {
-    -fx-background-color: gold;
-    -fx-border-color: red;
+  //  -fx-background-color: gold;
+    -fx-border-color: #4CAF50;;
     -fx-border-width: 3px;
 }
 
 .default-theme, .dark-theme, .light-theme, .blue-theme {
-    -fx-opacity: 1; /* Ensure full opacity */
+    -fx-opacity: 1;
 }
 
 .game-button-active {
-    -fx-background-color: blue;
+    -fx-background-color: #14144e;
 }
 
 .default-theme {
-    -fx-background-color: blueviolet;
+    -fx-background-color: #df32ec;
     -fx-text-fill: white; /* Ensure the text is visible on dark backgrounds */
 }
 
 .dark-theme {
-    -fx-background-color: #333;
+    -fx-background-color: rgba(51, 51, 51, 0.93);
     -fx-text-fill: white; /* Ensure the text is visible on dark backgrounds */
 }
 
@@ -39,9 +39,28 @@
     -fx-text-fill: black; /* Ensure the text is visible on light backgrounds */
 }
 
-.blue-theme {
-    -fx-background-color: rgba(0, 166, 255, 0.63);
+.gradient-theme {
+    -fx-background-color: linear-gradient(to right, #0077ff, #38e86a);
     -fx-text-fill: red; /* Ensure the text is visible on light blue background */
+}
+.light .game-button-winning {
+    -fx-background-color: lightyellow; /* Highlight color for the light theme */
+    -fx-border-color: darkorange;
+    -fx-border-width: 3px;
+}
+
+/* Blue theme */
+.blue .game-button-winning {
+    -fx-background-color: lightblue; /* Highlight color for the blue theme */
+    -fx-border-color: navy;
+    -fx-border-width: 3px;
+}
+
+/* Dark theme */
+.dark .game-button-winning {
+    -fx-background-color: darkgray; /* Highlight color for the dark theme */
+    -fx-border-color: white;
+    -fx-border-width: 3px;
 }
 
 
